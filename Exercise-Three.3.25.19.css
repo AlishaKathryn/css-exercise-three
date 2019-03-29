@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-nav {
-  background-color: #000000;
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-}
-
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -21,28 +13,12 @@ body {
   width: 420px;
 }
 
-.content {
-  color: #000000;
-  padding-bottom: 20px;
-  width: 100%;
-}
-
-.content h1 {
-  font-size: 16px;
-  font-weight: bold;
-  padding-bottom: 3px;
-  padding-left: 20px;
-}
-
-.content h3 {
-  font-size: 12px;
-  font-weight: normal;
-  padding-left: 20px;
-}
-
-.location {
-  border-bottom: 1.2px solid #999999;
-  padding-top: 20px;
+nav {
+  background-color: #000000;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
 }
 
 .restaurant-list {
@@ -52,12 +28,36 @@ body {
   display: inline-block;
 }
 
-.arrow {
-  float: right;
-  display: flex;
-  align-items: flex-start;
+.location {
+  border-bottom: 1.2px solid #999999;
+  height: 70px;
+  clear: both;
 }
 
-.location a:hover {
-  background-color: #cccccc;
+.location:hover {
+  background-color: darkgray;
+}
+
+.content {
+  color: #000000;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 80%;
+  float: left;
+}
+
+.content h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content h3 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.arrow {
+  float: right;
+  width: 10%;
+  padding-top: 20px;
 }
